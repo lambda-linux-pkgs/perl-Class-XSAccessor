@@ -1,6 +1,8 @@
+%define _buildid .2
+
 Name:           perl-Class-XSAccessor
 Version:        1.19
-Release:        2%{?dist}
+Release:        2%{?_buildid}%{?dist}
 Summary:        Generate fast XS accessors without run-time compilation
 License:        GPL+ or Artistic
 Group:          Development/Libraries
