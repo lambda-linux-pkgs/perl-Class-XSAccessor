@@ -26,6 +26,9 @@ Requires:       perl(:MODULE_COMPAT_%(eval "`perl -V:version`"; echo $version))
 %global __requires_exclude %{?__requires_exclude:__requires_exclude|}perl\\(Class::XSAccessor::Heavy\\)
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Class::XSAccessor implements fast read, write and read/write accessors in
 XS. Additionally, it can provide predicates such as has_foo() for testing
 whether the attribute foo is defined in the object. It only works with
