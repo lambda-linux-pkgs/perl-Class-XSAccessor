@@ -61,6 +61,11 @@ make test
 %{_mandir}/man3/Class::*
 
 %changelog
+* Sun Jan 04 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 1.19-2
+- Adapt for AL/LL
+- Add package support URL
+- Import source package EPEL7/perl-Class-XSAccessor-1.19-2.el7
+
 * Sat Jun 07 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.19-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_21_Mass_Rebuild
 
